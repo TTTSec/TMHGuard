@@ -1,0 +1,7 @@
+General Guidelines for Securing Ports
+
+1. Only Open Ports for Necessary Services: Close ports for services that are not actively required. Services should ideally be on an internal network or behind a VPN if they need external access.
+2. Firewall Rules: Use firewall rules to restrict access to essential ports and ensure only trusted IPs can access them.
+3. Use VPNs for Remote Access: If remote access services (RDP, VNC, SSH) are necessary, consider requiring a VPN connection first to limit exposure.
+4. Regularly Audit Open Ports: Regularly scan open ports with tools like nmap to identify and close unnecessary ports.
+
