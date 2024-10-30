@@ -1,7 +1,7 @@
 
 # TMHGuard
 
-**TMHGuard** is a comprehensive security auditing and vulnerability detection tool for Linux systems. It automates the detection of open ports, password security policies, system configurations, and software updates. This tool integrates with **Lynis** to run additional system hardening checks and create reports to assist administrators in maintaining system security and compliance.
+**TMHGuard** is a comprehensive security auditing and vulnerability detection tool for Linux systems. It automates the detection of open ports, password security policies, system configurations, and software updates. This tool integrates with **Lynis** to run additional system hardening checks and create reports to assist administrators in maintaining system security.
 
 ## Features
 
