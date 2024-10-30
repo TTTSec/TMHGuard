@@ -105,4 +105,3 @@ Contributions to TMHGuard are welcome. Please fork this repository and submit a 
 
 TMHGuard is designed to aid system administrators in securing Linux systems. While it provides valuable insights, it is not a substitute for professional security audits. Always back up important data before making configuration changes.
 
-```
