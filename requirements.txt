@@ -1,0 +1,11 @@
+# HTTP requests library for querying APIs like NVD for CVE data
+requests
+
+# Colorama for cross-platform color output in the terminal
+colorama
+
+# For handling JSON data (often pre-installed in Python but included for completeness)
+json
+
+# Required for executing shell commands (standard in Python but noted here)
+subprocess
