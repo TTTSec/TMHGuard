@@ -27,7 +27,7 @@ def check_package_manager_updates():
                 output.write(
                     f"Package: {pkg['package']}\nCurrent Version: {pkg['current_version']}\nNew Version: {pkg['new_version']}\n\n")
             output.write("=== End of Package Manager Updates Report ===\n\n")
-
+        print("Please check the does_this_need_update.txt report for full info.\n")
     except subprocess.CalledProcessError as e:
         print("Error checking package manager updates:", e)
 
@@ -73,7 +73,7 @@ def check_python_package_updates():
                 output.write(
                     f"Package: {pkg['name']}\nCurrent Version: {pkg['version']}\nNew Version: {pkg['latest_version']}\n\n")
             output.write("=== End of Python Package Updates Report ===\n\n")
-
+        print("Please check the does_this_need_update.txt report for full info.\n")
     except subprocess.CalledProcessError as e:
         print("Error checking Python package updates:", e)
 
@@ -113,7 +113,7 @@ def check_cve_updates(software, version):
                     report.write(f"Description: {description}\n\n")
 
             print(f"{len(outdated_vulns)} vulnerabilities found for {software} {version}.")
-
+        print("Please check the cve_report.txt report for full information.\n")
         except ValueError as e:
             # Handle JSON decoding errors
             print("Error decoding JSON from CVE API:", e, "\n")
